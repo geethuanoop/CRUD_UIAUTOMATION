@@ -7,6 +7,10 @@ Test CRUD functionalities for a web application using JavaScript and WebDriverIO
 Click below to access test report.
 [Test report link](https://crud-ui-test-report.web.app)
 
+Screenshot of failed test cases in Allure report can be viewed in the Test Body
+
+![Allure Report](https://i.imgur.com/KshePiu.png)
+
 ### Installation
 
 #### Requirements
@@ -27,7 +31,7 @@ npm run test
 To generate an allure report
 
 ```
-npm run test:report
+npm run allure
 ```
 
 To deploy allure report to firebase (cloud)

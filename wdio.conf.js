@@ -229,9 +229,8 @@ exports.config = {
     { error, result, duration, passed, retries }
   ) {
     // take a screenshot anytime a test fails and throws an error
-    if (error) {
-      browser.takeScreenshot();
-    }
+
+    browser.takeScreenshot();
   },
 
   /**
